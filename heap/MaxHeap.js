@@ -1,4 +1,4 @@
-class MinHeap extends Heap {
+class MaxHeap extends Heap {
   /**
    * Checks if pair of heap elements is in correct order.
    * For MinHeap the first element must be always smaller or equal.
@@ -9,6 +9,6 @@ class MinHeap extends Heap {
    * @return {boolean}
    */
   pairIsInCorrectOrder(firstElement, secondElement) {
-    return this.compare.lessThanOrEqual(firstElement, secondElement);
+    return this.compare.greaterThanOrEqual(firstElement, secondElement);
   }
 }

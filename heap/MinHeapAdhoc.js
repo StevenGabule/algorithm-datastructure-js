@@ -1,3 +1,9 @@
+/**
+ * The minimalistic (ad hoc) version of a MaxHeap data structure that doesn't have
+ * external dependencies and that is easy to copy-paste and use during the
+ * coding interview if allowed by the interviewer (since many data
+ * structures in JS are missing).
+ */
 class MinHeapAdhoc {
   constructor(heap = []) {
     this.heap = []
